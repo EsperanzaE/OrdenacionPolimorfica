@@ -5,12 +5,12 @@ public class Carta {
 
     static final int AS = 1;
     private int valor;
-    private String tipo;
+    private String palo;
 
 
     public Carta(int valor, String tipo) {
         this.valor = valor;
-        this.tipo = tipo;
+        this.palo = tipo;
     }
 
     public int getValor() {
@@ -42,8 +42,8 @@ public class Carta {
     public String toString() {
         return "Carta{" +
                 "valor=" + valor +
-                ", tipo='" + tipo + '\'' +
-                '}';
+                ", tipo='" + palo + '\'' +
+                "'} \n";
     }
 }
 
